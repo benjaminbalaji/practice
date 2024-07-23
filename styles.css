@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    font-family: IBM Plex Mono;
+}
+
+.full-nav{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+}
+
+.full-nav h3{
+    display: inline;
+    padding-right: 10px;
+    padding-left: 40px;
+}
+
+.full-nav h3{
+    animation-name: balaji;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes balaji{
+    0%  {color: rgb(255, 0, 238);}
+    25% {color: rgb(255, 0, 0);}
+    50% {color: rgb(255, 123, 0);}
+    75% {color: yellow;}
+    100% {color: white;}
+    
+}
+
+.navigation{
+    display: inline;
+}
+
+.navigation a{
+    display:block;
+    padding-left: 70px;
+    float: right;
+    display: block;
+    text-decoration: none;
+}
+
+.carousel img{
+    width: 200px;
+    margin-left: 20px;
+}
+.carousel{
+    display: flex;
+    margin-left: 430px;
+}
+
+.carousel img:hover{
+    animation-name: image;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes image {
+    0% {width: 200px; }
+    50% {width: 300px;}
+    100% {width: 200px;}
+}
+
+
